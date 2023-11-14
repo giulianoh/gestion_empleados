@@ -6,7 +6,11 @@ Tener Instalados Docker y Docker-compose
 Instrucciones para su uso:
 
 1.Clona el repositorio
+
 https://github.com/giulianoh/gestion_empleados.git
+
 2.Crea tu archivo ".env"
+
 3.Ejecuta la aplicacion con Docker Compose, esto creará contenedores para la aplicacion Flask y una Base de datos MySQL:
+
 sudo docker-compose up -d
