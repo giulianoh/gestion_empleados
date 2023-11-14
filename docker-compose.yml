@@ -6,7 +6,6 @@ services:
     env_file:
         - .env
     environment:
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
@@ -31,7 +30,7 @@ services:
       - .env
     depends_on:
       - mysql_db
-    container_name: flask_empleados_app
+    container_name: empleados_app
 
 volumes:
   db_data:
