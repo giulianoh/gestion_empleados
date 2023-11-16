@@ -1,3 +1,3 @@
-CREATE DATABASE empresa_db;
+CREATE DATABASE {MYSQL_DATABASE};
 
 USE empresa_db;
