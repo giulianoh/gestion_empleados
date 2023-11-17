@@ -15,8 +15,7 @@ https://github.com/giulianoh/gestion_empleados.git
 
 sudo docker-compose up -d
 
-4. Una vez echo lo anterior, te dirigis al localhost.
 
-5.con los siguientes comando podes ver:
+4.con los siguientes comando podes ver:
 sudo docker-compose ps (este comando muestra que contenedor esta en ejecucion)
 sudo docker-compose down ( este comando lo detiene y elimina los contenedores)
